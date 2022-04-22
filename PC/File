@@ -1,1 +1,18 @@
+Expected everything to work at the end of 2020.
+- Re-wrote the engine based on it's physics(framerate) calculations, it can now go up to 50, or 60. (2/9/2020) 
+- Added graphics menu, it will remain hidden for the PlayStation version as they do not need it. Developers edit everything inside the engine, which is why there was no graphics menu in the first place. (8/2/2020)
+- Optimised performence, expected at a constant (60-frames-per-second), (NULL) 
+
+There were a few errors with maps not loading in properly on launch, resulting in black textures and some props missing from the map. This is expected to be fixed by August of 2022.
+Fixing error where the game cannot detect whether you're using controller or computer controls. 
+
+Removed comment in source (project-bloodpc)
+// TO-BE-FIXED
+This is not how you should pack a game at all, this breaks the executable file and does not attempt at opening the game at all, please remove instructions and fix this. 
+
+// REVIEW
+The engine is tied to 30 frames because if the game were to run at a higher framerate than the entire physics would break, it would not make sense to just up the frames to 60 frames, look at how the enemies/players legs move. Rewrite the engine and send it back when you're finished.
+
+// ???
+The game won't run, what happened???
 
